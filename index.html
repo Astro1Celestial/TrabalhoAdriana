@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="executa.php" method="POST">
+        <p>o que você achou do site https://www.significados.com.br/cores2/</p><br>
+        <input type="radio" name="nota" id="nota"> Muito Bom <br>
+        <input type="radio" name="nota" id="nota"> Bom <br>
+        <input type="radio" name="nota" id="nota"> Regular <br>
+        <input type="radio" name="nota" id="nota"> Ruim <br> <br>
+
+
+        <label for="comentarios">Digite seus comentários no espaço abaixo:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escreva aqui seus comentários..."></textarea><br>
+
+
+        <p>Qual cor você mais gostou?</p>
+        <select name="cores" id="cores">
+            <option value="Azul">Azul</option>
+            <option value="Verde">Verde</option>
+            <option value="Amarelo">Amarelo</option>
+            <option value="Roxo">Roxo</option>
+            <option value="Rosa">Rosa</option>
+            <option value="Vermelho">Vermelho</option>
+            <option value="Laranja">Laranja</option>
+            <option value="Marrom">Marrom</option>
+            <option value="Cinza">Cinza</option>
+            <option value="Branco">Branco</option>
+            <option value="Preto">Preto</option>
+        </select>
+
+        <p>Diga-me como entrar em contato com você</p>
+
+            <h2>Nome:</h2>
+            <input type="text" name="nome" id="nome">
+            <h2>E-mail:</h2>
+            <input type="text" id="email" name="email">
+            <h2>Phone:</h2>
+            <input type="text" name="phone" id="telephone">
+        <br> <br>
+        <input type="checkbox" id="checkbox" name="novidades">Quero receber as novidades no e-mail<br>
+
+        <br>
+        <input type="submit" id="enviar">
+        <input type="submit" value="limpar formulario" id="limpar">
+</form>
+ </div>
+</body>
+</html>
